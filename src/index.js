@@ -5,7 +5,7 @@ const javascript = new Course({
   students: ['Pelle', 'Kalle', 'Adam'],
   teacher: 'John Smith',
   startDate: new Date(Date.now()),
-  endDate: new Date(Date.now() + (3600 * 60 * 24 * 7)),
+  endDate: new Date(Date.now() + (3600000 * 60 * 24 * 7)),
 })
 
 console.log(javascript);
