@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WestCoast EDU</title>
+  <script src="index.js" defer></script>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Courses</h1>
+  <label for="courses">Choose a course:</label>
+
+  <select name="courses" id="courses">
+    <option value="">Ingen vald</option>
+    <option value="javascript">Javascript</option>
+    <option value="typescript">Typescript</option>
+  </select>
+  <p id="courseData"></p>
+  <label for="students" class="hidden" id="studentsLabel">Add student:</label>
+  <select name="students" id="students" class="hidden">
+    <option value="">Ingen vald</option>
+    <option value="pelle">Pelle</option>
+    <option value="adam">Adam</option>
+    <option value="bertil">Bertil</option>
+    <option value="johan">Johan</option>
+  </select>
+</body>
+</html>
