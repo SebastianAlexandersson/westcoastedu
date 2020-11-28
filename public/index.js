@@ -1,3 +1,16 @@
+import * as module from './modules.js';
+
+console.log(module.courses.getAllCourses());
+
+module.courses.addCourse(module.javascript);
+
+console.log(module.courses.getAllCourses());
+
+module.courses.addStudentToCourse(module.student, module.javascript);
+
+console.log(module.courses.getAllCourses());
+
+
 class Course {
   constructor(id, subject, students, teacher) {
     this.id = id;
